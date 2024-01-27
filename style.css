@@ -61,6 +61,20 @@ body {
     border-radius: 5px;
     display: none;
   }
+
+/* Portfolio Page */
+.portfolio-section 
+{
+  margin-bottom: 30px;
+}
+
+/* Portfolio Images */
+.portfolio-image {
+  width: 250px; /* Adjust as needed */
+  height: 250px; /* Adjust as needed */
+  border-radius: 10px; /* Rounded edges */
+  margin-right: 20px; /* Spacing between images */
+}
   
   .portfolio-item:hover .portfolio-text {
     display: block;
@@ -115,48 +129,6 @@ body {
   canvas {
     border: 1px solid #ffffff; /* Border color */
   }
-  /* Portfolio Page */
-.portfolio-section {
-  margin-bottom: 30px;
-}
-
-/* Portfolio Images */
-.portfolio-image {
-  width: 250px; /* Adjust as needed */
-  height: 250px; /* Adjust as needed */
-  border-radius: 10px; /* Rounded edges */
-  margin-right: 20px; /* Spacing between images */
-}
-
-/* Clearfix */
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.portfolio-item {
-  position: relative;
-  display: inline-block;
-}
-
-.portfolio-text {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #ffffff;
-  padding: 10px;
-  border-radius: 5px;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.3s, visibility 0.3s;
-}
-
-.portfolio-item:hover .portfolio-text {
-  visibility: visible;
-  opacity: 1;
-}
-
-
+  .portfolio-item {
+    margin-bottom: 20px; /* Adjust as needed */
+  }
