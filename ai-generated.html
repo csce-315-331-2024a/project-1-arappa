@@ -19,33 +19,70 @@
         <li><a href="ai-generated.html">AI Generated Page</a></li>
       </ul>
     </nav>
-    <main class="content">
-      <h1>AI Generated Page</h1>
-      <div id="instructions">
-        <h2>How to Use:</h2>
-        <p>Select one of the pre-chosen signals from the dropdown menu below. Click the "Generate Plot" button to display the graph of the signal and its Fast Fourier Transform (FFT).</p>
-      </div>
-      <div id="signal-selection">
-        <label for="signal-select">Select Signal Function:</label>
-        <select id="signal-select">
-          <option value="sine">Sine</option>
-          <option value="cosine">Cosine</option>
-          <option value="sineAndCosine">Sine + Cosine</option>
-          <option value="sineTimesCosine">Sine * Cosine</option>
-          <option value="random">Random</option>
-        </select>
-        <button onclick="generatePlot()">Generate Plot</button>
-      </div>
-      <div id="plot-container">
-        <canvas id="signal-canvas" width="400" height="300"></canvas>
-        <canvas id="fft-canvas" width="400" height="300"></canvas>
-      </div>
-      <div id="prompt">
-        <h2>AI Prompt:</h2>
-        <p>Make me a page where i can input one of 5 pre-chosen signals that you pick and it shows the graph of the signal and the FFT of the signal. include a how to of how to use the page and the prompt i gave you. keep the sidebar the same and css as the other pages.</p>
-      </div>
-    </main>
+    <header>
+      <h1>AI-Generated</h1>
+  </header>
+  <a href="https://chat.openai.com/c/c819f6b3-2e2c-4083-bea3-57e63ffe9bda">ChatGPT Prompt</a>
+  
+  <div>
+      <h2>Introduction to Electrical Engineering</h2>
+      <p>This class provides a fundamental understanding of electrical engineering principles including circuit analysis, basic electronics, and electromagnetism. It lays the groundwork for more advanced courses in the field.</p>
+      <p>Real-world uses: Designing circuits for electronic devices, analyzing power systems for energy efficiency.</p>
+      <p>Jobs: Electrical Engineer, Electronics Technician, Power Systems Engineer.</p>
   </div>
+  
+  <div>
+      <h2>Signals and Systems</h2>
+      <p>Signals and Systems is focused on mathematical techniques for analyzing and processing signals in electrical engineering systems. Topics covered include Fourier analysis, Laplace transforms, and system modeling. This knowledge is crucial for designing and analyzing communication systems, control systems, and signal processing algorithms.</p>
+      <p>Real-world uses: Designing communication systems, developing signal processing algorithms for medical imaging.</p>
+      <p>Jobs: Communications Engineer, Signal Processing Engineer, Control Systems Engineer.</p>
+  </div>
+  
+  <div>
+      <h2>Electronics</h2>
+      <p>Electronics delves into the study of electronic devices and circuits. It covers semiconductor physics, diodes, transistors, operational amplifiers, and digital logic gates. Understanding electronics is essential for designing and troubleshooting electronic circuits used in various applications such as computers, smartphones, and medical devices.</p>
+      <p>Real-world uses: Designing integrated circuits for consumer electronics, developing medical devices.</p>
+      <p>Jobs: Electronics Engineer, Embedded Systems Engineer, Hardware Design Engineer.</p>
+  </div>
+  
+  <div>
+      <h2>Power Systems</h2>
+      <p>Power Systems focuses on the generation, transmission, and distribution of electrical power. Topics include power generation technologies, transformers, transmission lines, and power distribution systems. This knowledge is vital for designing efficient and reliable electrical power systems to meet the energy needs of industries, cities, and communities.</p>
+      <p>Real-world uses: Designing renewable energy systems, optimizing power distribution networks.</p>
+      <p>Jobs: Power Systems Engineer, Renewable Energy Engineer, Grid Operations Engineer.</p>
+  </div>
+  
+  <div>
+      <h2>Control Systems</h2>
+      <p>Control Systems deals with the analysis and design of systems that regulate the behavior of dynamic systems. It covers feedback control theory, stability analysis, and controller design techniques. Understanding control systems is crucial for designing automated systems used in robotics, automotive control, aerospace, and industrial processes.</p>
+      <p>Real-world uses: Designing autopilot systems for aircraft, developing robotics for manufacturing.</p>
+      <p>Jobs: Control Systems Engineer, Robotics Engineer, Automation Engineer.</p>
+  </div>
+  
+  <div>
+      <h2>Introduction to Computer Science</h2>
+      <p>This class introduces fundamental concepts in computer science including programming languages, algorithms, data structures, and software engineering principles. It provides a foundation for more advanced courses in computer science and software development.</p>
+      <p>Real-world uses: Developing software applications, designing algorithms for data analysis.</p>
+      <p>Jobs: Software Developer, Web Developer, Data Analyst.</p>
+  </div>
+  
+  <div>
+      <h2>Data Structures and Algorithms</h2>
+      <p>Data Structures and Algorithms focuses on the design and analysis of fundamental data structures and algorithms used in computer science. Topics include arrays, linked lists, stacks, queues, trees, graphs, sorting algorithms, and searching algorithms. Understanding data structures and algorithms is essential for developing efficient and scalable software applications.</p>
+      <p>Real-world uses: Optimizing database performance, developing search algorithms for web applications.</p>
+      <p>Jobs: Software Engineer, Data Scientist, Systems Analyst.</p>
+  </div>
+  
+  <div>
+      <h2>Computer Organization and Architecture</h2>
+      <p>Computer Organization and Architecture explores the hardware components and organization of computer systems. Topics include digital logic, processor architecture, memory systems, input/output systems, and computer networks. This knowledge is essential for understanding how computers execute programs and interact with peripherals.</p>
+      <p>Real-world uses: Designing computer hardware, optimizing computer systems for performance.</p>
+      <p>Jobs: Hardware Engineer, Computer Architect, Network Engineer.</p>
+  </div>
+  
+  <footer>
+      <p>&copy; 2024 Electrical Engineering and Computer Science Classes. All rights reserved.</p>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
