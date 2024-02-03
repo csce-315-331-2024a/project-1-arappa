@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alexis Rappa - Qualifications</title>
   <link id="mainStyleSheet" rel="stylesheet" href="light.css" />
+  <style>
+    #clickable-image {
+        cursor: pointer; /* Change cursor to pointer on hover */
+        width: 250px; /* Set width to 200 pixels */
+        height: auto; /* Automatically adjust height to maintain aspect ratio */
+        margin-right: 20px; /* Add some space between the image and the right edge */
+    }
+</style>
 </head>
 <body>
   <div class="container">
@@ -37,9 +45,9 @@
             and Python, I am adept at creating scalable and robust software solutions. Whether it's developing algorithms for control systems, designing automation scripts, or contributing to avionics software, my technical pursuits encompass a wide spectrum, 
             reflecting my dedication to staying at the forefront of innovation in computer engineering.</p>
       </div>
-      <div class="resume-link">
-        <p>If you would like to know more about my experience, click <a href="resume.pdf" target="_blank">here</a> to access a PDF of my resume.</p>
-      </div>
+      <a href="resume.pdf" target="_blank">
+        <img id="clickable-image" src="resume.png" alt="Click to view Resume">
+      </a>
     </main>
   </div>
   <script src="script.js"></script>
